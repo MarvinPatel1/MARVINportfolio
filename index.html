@@ -120,9 +120,14 @@ strong {
   width: 120px;
   height: auto;
   border-radius: 6px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border: 2px solid black; 
 }
-
+.gallery2 img {
+  width: 220px;
+  height:auto;
+  border-radius: 6px;
+  border: 2px solid black;
+}
 /* Media placeholders */
 .media-placeholder {
   height: 140px;
@@ -199,6 +204,12 @@ footer {
     .gallery1 img:hover {
       transform: scale(1.03);
     }
+
+.gallery video {
+  border-radius: 6px;
+  border: 2px solid black;
+}
+
 </style>
 </head>
 <body>
@@ -234,7 +245,7 @@ I’m excited to bring my skills to an indie studio where I can contribute meani
 
   <article class="project">
     <div class="project-title">Dodge Me! (3D Casual Survival)</div>
-    <div class="tools">Unity, Blender, C# • Launched on Play Store</div>
+    <div class="tools">Own Game Development • Unity | Blender | C# • Launched on Play Store</div>
     <p>Available on <a href="https://multipleegames.itch.io/dodgeme" target="_blank" rel="noopener noreferrer">Itch.io</a></p>
     <p>A vibrant 3D survival game where players dodge colorful blocks and collect food with a ragdoll character.</p>
     <p>Integrated monetization (banner ads), polished art, and published marketing via indie pages. Includes a 2D version in development with potential for relaunch.</p>
@@ -250,9 +261,21 @@ I’m excited to bring my skills to an indie studio where I can contribute meani
     </div>
   </article>
 
+<article class="project">
+    <div class="project-title">Block To Basket (2D Puzzle)</div>
+    <div class="tools">Solo project • Unity | C# | Photoshop | Illustrator • Launched on Play Store</div>
+    <p>Physics puzzle game with 50 handcrafted levels. Players remove blocks to guide a ball into a basket.</p>
+    <p>Designed all levels on paper before implementation. Also developed a 3D prototype (unreleased) with scalable difficulty and unique mechanics.</p>
+    <div class="gallery2">
+      <img src="Images\BlockBasket1.jpg" alt="Block to Basket Level 1" />
+      <img src="Images\BlockBasket2.jpg" alt="Block to Basket Level 1" />
+      <img src="Images\BlockBasket3.jpg" alt="Block to Basket Level 1" />
+    </div>
+  </article>
+
   <article class="project">
     <div class="project-title">Multiple Games Collection (2D)</div>
-    <div class="tools">Solo project • Android Studio (Java), Photoshop, Illustrator • Launched on Play Store</div>
+    <div class="tools">Solo project • Android Studio (Java) | Photoshop | Illustrator • Launched on Play Store</div>
     <p>A 6-in-1 mini-game app including:</p>
     <ul>
       <li>Tic Tac Toe (PvP and AI mode)</li>
@@ -272,17 +295,6 @@ I’m excited to bring my skills to an indie studio where I can contribute meani
     </div>
   </article>
 
-  <article class="project">
-    <div class="project-title">Block To Basket (2D Puzzle)</div>
-    <div class="tools">Unity, C#, Photoshop • Launched on Play Store</div>
-    <p>Physics puzzle game with 50 handcrafted levels. Players remove blocks to guide a ball into a basket.</p>
-    <p>Designed all levels on paper before implementation. Also developed a 3D prototype (unreleased) with scalable difficulty and unique mechanics.</p>
-    <div class="gallery">
-      <img src="your-image-4.jpg" alt="Block to Basket Level 1" />
-      <img src="your-image-5.jpg" alt="Block to Basket Level 2" />
-    </div>
-  </article>
-
 </section>
 
 <section>
@@ -292,38 +304,59 @@ I’m excited to bring my skills to an indie studio where I can contribute meani
 <em>[Insert your MP4 demo reel or YouTube embed here]</em>
   </div> --!>
 <div class="gallery">
-<video autoplay muted loop playsinline controls width="650" height="300">
+
+<video autoplay muted loop playsinline controls width="320" height="300">
         <source src="Videos\OfficialTrailer.mp4" type="video/mp4" />
 Your browser does not support the video tag.
       </video>
-<video autoplay muted loop playsinline controls width="325" height="300">
+<video autoplay muted loop playsinline controls width="320" height="300">
+        <source src="Videos\BlockToBasketGamePlay.mp4" type="video/mp4" />
+Your browser does not support the video tag.
+      </video>
+<video autoplay muted loop playsinline controls width="320" height="300">
         <source src="Videos\Sample_DodgeMe.MOV" type="video/mp4" />
 Your browser does not support the video tag.
       </video>
-<video autoplay muted loop playsinline controls width="325" height="300">
+<video autoplay muted loop playsinline controls width="320" height="300">
         <source src="Videos\SampleVideo.mov" type="video/mp4" />
 Your browser does not support the video tag.
       </video>
-<video autoplay muted loop playsinline controls width="120" height=auto>
+
+<!--    <video autoplay muted loop playsinline controls width="220" height="300">
+        <source src="Videos\DodgeMe_GamePlay.mov" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+
+<video autoplay muted loop playsinline controls width="430" height="300">
+        <source src="Videos\BlockToBasketGamePlay.mp4" type="video/mp4" />
+Your browser does not support the video tag.
+      </video>
+--!>
+<video autoplay muted loop playsinline controls width="210" height="300">
+        <source src="Videos\DodgeMe_GamePlay.mov" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+<video autoplay muted loop playsinline controls width="210" height="300">
         <source src="Videos\TicTacToe_GamePlay.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-<video autoplay muted loop playsinline controls width="120" height=auto>
+<video autoplay muted loop playsinline controls width="210" height="300">
         <source src="Videos\KingPoliceMinister_GamePlay.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-<video autoplay muted loop playsinline controls width="120" height=auto>
+<video autoplay muted loop playsinline controls width="210" height="300">
         <source src="Videos\Slots_GamePlay.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-<video autoplay muted loop playsinline controls width="120" height=auto>
+<video autoplay muted loop playsinline controls width="210" height="300">
         <source src="Videos\Numbering_GamePLay.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-<video autoplay muted loop playsinline controls width="120" height=auto>
+<video autoplay muted loop playsinline controls width="210" height="300">
         <source src="Videos\MakeMatch_GamePlay.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
+
     </div>
         
 </section>
@@ -341,7 +374,7 @@ Your browser does not support the video tag.
 
 <section>
   <h2>Art Showcase</h2>
-  <p>Here’s a quick reel of my ART (2D) — Scanned from my personal ART DIARY! and Created in Sketchbook App Ipad</p>
+  <p>Here’s a quick reel of my ART (2D) — Scanned from my personal ART DIARY! and Created in Sketchbook App IPad</p>
 <!--   <div class="media-placeholder">
 <em>[Insert your MP4 demo reel or YouTube embed here]</em>
   </div> --!>
